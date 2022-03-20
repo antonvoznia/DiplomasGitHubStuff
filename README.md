@@ -60,6 +60,24 @@ https://wiki.centos.org/QaWiki/PubHardware
 As we can see every machine support only 1 disk.
 * Is it problem for us? Where we can place backup?...
 
+
+## Configure NFS
+### Configure NFS server
+https://www.server-world.info/en/note?os=Fedora_31&p=nfs&f=1
+### Configure NFS client
+https://www.server-world.info/en/note?os=Fedora_31&p=nfs&f=2
+
+
+In my case:
+* server: 192.168.124.252
+* client: 192.168.124.66
+
+### Uboot
+https://developer.toradex.com/knowledge-base/boot-from-a-tftpnfs-server
+
+https://developer.toradex.com/knowledge-base/distro-boot-linux
+
+
 ## DUMP and notes
 ### Provision and prepare
 
